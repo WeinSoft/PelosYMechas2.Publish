@@ -1,0 +1,119 @@
+/* === Global Font & Background === */
+.dxgvControl_Mulberry, .dxgvTable_Mulberry, .dxgv, .dxgvRBB {
+    background-color: #1e1e2f !important;
+    color: #f0f0f0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 14px !important;
+    border-color: #3c3c55 !important;
+}
+
+/* === Header === */
+.dxgvHeader_Mulberry {
+    background-color: #2a2a3d !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #3c3c55 !important;
+}
+
+/* === Rows === */
+.dxgvDataRow_Mulberry, .dxgvLVR {
+    background-color: #1e1e2f !important;
+    border-bottom: 1px solid #2c2c3e !important;
+}
+
+.dxgvFocusedRow_Mulberry {
+    background-color: #3c2e5a !important;
+}
+
+/* === Filter Row & Inputs === */
+.dxgvFilterRow_Mulberry input,
+.dxgvFilterRow_Mulberry .dxeEditArea_Mulberry,
+.dxeTextBox_Mulberry input,
+.dxeButtonEdit_Mulberry input {
+    background-color: #2a2a3d !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #555 !important;
+    padding: 4px 6px !important;
+    border-radius: 4px;
+}
+
+.dxeButtonEdit_Mulberry {
+    background-color: transparent !important;
+}
+
+/* === Search Panel === */
+.dxgvSearchPanel_Mulberry input {
+    background-color: #2a2a3d !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #444 !important;
+    padding: 6px 8px !important;
+}
+
+/* === Pagination === */
+.dxpLite_Mulberry, .dxp-num {
+    background-color: #1e1e2f !important;
+    color: #f0f0f0 !important;
+}
+
+.dxp-current {
+    background-color: #8855cc !important;
+    color: white !important;
+    border-radius: 4px;
+    padding: 4px 8px !important;
+}
+
+/* === Toolbar Buttons === */
+.dxctToolbar_Mulberry .dxm-content {
+    background-color: #2e2e40 !important;
+    border: 1px solid #444 !important;
+    border-radius: 4px !important;
+    padding: 6px 10px !important;
+    color: #f0f0f0 !important;
+}
+
+.dxctToolbar_Mulberry .dxm-disabled {
+    background-color: #444 !important;
+    color: #888 !important;
+}
+
+/* === DropDowns, Buttons, Clear Inputs === */
+.dxeButtonEditButton_Mulberry, .dxp-dropDownButton, .dxm-popOut, .dxeButtonEditClearButton_Mulberry {
+    background-color: #333 !important;
+    border: 1px solid #444 !important;
+}
+
+    .dxeButtonEditButton_Mulberry img, .dxp-dropDownButton img, .dxm-popOut img {
+        filter: brightness(0.8) invert(0.9);
+    }
+
+/* === Fix white boxes on corners of filter row === */
+.dxgvFilterRow_Mulberry td, .dxgvFilterRow_Mulberry input {
+    background-color: #2a2a3d !important;
+}
+
+/* === Alignment and spacing === */
+.dxgvHeader_Mulberry td, .dxgv td {
+    padding: 6px 10px !important;
+}
+
+.dxgvTable_Mulberry td {
+    vertical-align: middle !important;
+}
+
+/* === Scroll fix & box model cleanup === */
+.dxgvTable_Mulberry {
+    box-sizing: border-box !important;
+    overflow-x: auto !important;
+}
+
+/* === Action buttons === */
+.dxbButton_Mulberry {
+    background-color: #3a3a55 !important;
+    border: none !important;
+    padding: 4px 6px !important;
+    border-radius: 3px;
+}
+
+/* === Custom icons white background fix === */
+.dxWeb_edtCheckBoxUnchecked_Mulberry, .dxICheckBox_Mulberry, .dxgvCommandColumn_Mulberry {
+    background-color: transparent !important;
+}
